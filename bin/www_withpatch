@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var server = require('net').createServer();
+var cp = require('child_process');
+
+var cpus = require('os').cpus();
+
+var child_pool = [];//子进程池
+
+for(var i = 0;i < cpus.length;i++) {
+  child_pool[i] = cp.fork('./child.js');
+}
+
+server.listen(4000, function() {
+  for (var i = 0; i < child_pool.length; i++) {
+    child_pool[i].send('server',server);
+  }
+  server.close();
+})
+

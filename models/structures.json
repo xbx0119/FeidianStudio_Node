@@ -1,0 +1,70 @@
+/*
+ * the structure of feidian database
+ */
+
+// admins
+{ 
+    "username" : "String", 
+    "password" : "String", 
+    "member" : "String", 
+    "rank" : "Number"  
+}
+
+// systems
+{
+	"introduction": "String",
+	"culture": "String",
+	"rules": "String",
+	"photos": "Array",
+	"recruit": "",
+	"groups": "Array",
+	"contact": "Array"
+}
+
+// members
+{
+    "memberid" : "Number",
+    "grade": "Number",
+    "name": "String",
+    "nickname": "String",
+    "birth": "Date", 
+    "sex": "String", 
+    "entertime": "Date", 
+    "group": "web开发", 
+    "headimg": "String", 
+    "email": "String", 
+    "introduction": "String", 
+    "word": "String"
+}
+
+// news
+{ 
+    "title" : "String", 
+    "content" : "String", 
+    "time" : "Date", 
+    "kind" : "",   // 官方动态 or 成员日志
+    "author" : "String"
+}
+
+// teachers
+{ 
+    "name" : "String", 
+    "headimg" : "String", 
+    "tel" : "String", 
+    "email" : "String", 
+    "introduction" : "String", 
+    "word" : "String", 
+    "sort" : "Number"
+}
+
+
+// products
+{ 
+    "kind" : "String", 
+    "title" : "String", 
+    "author" : "String", 
+    "time" : "String", 
+    "introduction" : "String", 
+    "img" : "String", 
+    "links" : "String"
+}

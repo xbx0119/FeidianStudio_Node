@@ -1,0 +1,30 @@
+/*招新*/
+#recruit {
+
+}
+.recruit-content {
+	float: left;
+	width: 100%;
+}
+.recruit-content span {
+	width: 100%;
+	min-height: 50px;
+	margin-top: 20px; 
+	float: left;
+	display: inline-block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.recruit-content span font {
+	display: block;
+	width: 100%;
+	/*float: left;*/
+	font-size: 1.1em;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.recruit-content span p {
+	width: 90%;
+	display: block;
+	float: right;
+}
