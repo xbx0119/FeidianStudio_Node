@@ -7,7 +7,7 @@ class Footer extends React.Component {
 		return (
 			<div id="footer">
 				<p>Copyright © 2016 沸点工作室 All rights reserved.</p>
-				<a href="#header" className="backtotop">Back To Top</a>
+				{ /*<a href="#header" className="backtotop">Back To Top</a> */ }
 			</div>
 		);
 	}

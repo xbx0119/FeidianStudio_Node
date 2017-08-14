@@ -23,22 +23,20 @@ let history = createBrowserHistory();
 class App extends React.Component {
 	render() {
 		return (
-			<div id="root">
-				<Router history={history}>
-					<div>
-						<Header />
-						<Route exact path="/" component={Index} />
-						<Route path="/introduction" component={Introduction} />
-						<Route path="/culture" component={Culture} />
-						<Route path="/members" component={Members} />
-						<Route path="/news" component={News} />
-						<Route path="/products" component={Products} />
-						<Route path="/recruit" component={Recruit} />
-						<Route path="/contact" component={Contact} />
-						<Footer />	
-					</div>
-				</Router>
-			</div>
+			<Router history={history}>
+				<div  id="root">
+					<Header />
+					<Route exact path="/" component={Index} />
+					<Route path="/introduction" component={Introduction} />
+					<Route path="/culture" component={Culture} />
+					<Route path="/members" component={Members} />
+					<Route path="/news" component={News} />
+					<Route path="/products" component={Products} />
+					<Route path="/recruit" component={Recruit} />
+					<Route path="/contact" component={Contact} />
+					<Footer />	
+				</div>
+			</Router>
 		)
 	}
 };

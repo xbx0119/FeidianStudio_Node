@@ -5,7 +5,7 @@ import style from './index.scss'
 class Index extends React.Component {
 	render() {
 		return (
-			<div id="main">
+			<div id="main" className="index">
 				<div id="focus">
 					<div className="focus-block">
 		                <img src={require('./resource/focus1.jpg')} className="focus-img" />
@@ -85,12 +85,20 @@ class Index extends React.Component {
 		          <div className="block-content">
 		            <div className="left news-list">
 		              <ul>
-		                <li><a href="/news/detail/<%=announce[i]._id%>"><p>【新闻公告】</p>title</a><font>time</font></li>
+		                <li><a href="/news/detail/_id"><b>【新闻公告】</b>沸点工作室2016年暑期培训于8月5日正式开始</a><font>time</font></li>
+		                <li><a href="/news/detail/_id"><b>【新闻公告】</b>沸点工作室2016年暑期培训于8月5日正式开始</a><font>time</font></li>
+		                <li><a href="/news/detail/_id"><b>【新闻公告】</b>沸点工作室2016年暑期培训于8月5日正式开始</a><font>time</font></li>
+		                <li><a href="/news/detail/_id"><b>【新闻公告】</b>沸点工作室2016年暑期培训于8月5日正式开始</a><font>time</font></li>
+		                <li><a href="/news/detail/_id"><b>【新闻公告】</b>沸点工作室2016年暑期培训于8月5日正式开始</a><font>time</font></li>
 		              </ul>
 		            </div>
 		            <div className="right news-list">
 		              <ul>
-		                    <li><a href="/news/detail/<%=announce[i]._id%>"><p>【成员日志】</p>title</a><font>time</font></li>
+		                    <li><a href="/news/detail/<%=announce[i]._id%>"><b>【成员日志】</b>2016年暑期集训总结</a><font>time</font></li>
+		                    <li><a href="/news/detail/<%=announce[i]._id%>"><b>【成员日志】</b>2016年暑期集训总结</a><font>time</font></li>
+		                    <li><a href="/news/detail/<%=announce[i]._id%>"><b>【成员日志】</b>2016年暑期集训总结</a><font>time</font></li>
+		                    <li><a href="/news/detail/<%=announce[i]._id%>"><b>【成员日志】</b>2016年暑期集训总结</a><font>time</font></li>
+		                    <li><a href="/news/detail/<%=announce[i]._id%>"><b>【成员日志】</b>2016年暑期集训总结</a><font>time</font></li>
 		              </ul>
 		            </div>
 		          </div>
@@ -111,7 +119,7 @@ class Index extends React.Component {
 		        		<h2 className="title">LINKS</h2>
 		        		<p className="title-description">OUR FRIENDLY LINKS</p>
 		        	</div>
-		        	<div className="links-block">
+		        	<div className="block-content">
 		                <a href="javascript:;"><img src={require('./resource/feidian.jpg')}/></a>
 		                <a href="javascript:;"><img src={require('./resource/library.jpg')}/></a>
 		                <a href="https://github.com/"><img src={require('./resource/github.jpg')}/></a>
