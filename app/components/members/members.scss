@@ -1,55 +1,6 @@
 /*历届成员*/
 #members {
-	width: 80%;
-	min-height: 600px;
-	margin-left: 10%;
-	float: left;
-	/*background: #fff;*/
-	padding-top: 60px;
-	/*padding-bottom: 20px;*/
-}
-.time-nav {
-	width: 100px;
-	height: 400px;
-	background-image: url(./resource/spine.png);
-	background-repeat: no-repeat;
-	background-size: 2px 100%;
-	background-position: 10px center; 
-	padding-top: 15px;
-	float: left;
-}
-.fixed-nav {
-	position: fixed;
-	top: 30px;
 
-}
-.time-nav span {
-	width: 80px;
-	height: 20px;
-	margin-bottom: 40px;
-	margin-left: 6px;
-	float: left;
-}
-.time-nav span i {
-	width: 10px;
-	height: 10px;
-	margin-top: 6px;
-	display: inline-block;
-	background: #fff;
-	border-radius: 50%;
-	border:1px solid #666;
-	float: left;
-}
-.time-nav span a {
-	color:#333;
-}
-.time-nav span font {
-	width: 60px;
-	height: 20px;
-	margin-left: 5px;
-	float: left;
-	color:#333;
-	cursor: pointer;
 }
 .members-content {
 	width: calc(100% - 120px);

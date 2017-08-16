@@ -12,8 +12,7 @@ class Header extends React.Component {
 				<div id="header-nav">
 					<ul>
 						<Link to="/"><li>首页</li></Link>
-						<Link to="/introduction"><li>沸点简介</li></Link>
-						<Link to="/culture"><li>团队文化</li></Link>
+						<Link to="/introduction"><li>团队简介</li></Link>
 						<Link to="/members"><li>历届成员</li></Link>
 						<Link to="/news"><li>新闻动态</li></Link>
 						<Link to="/products"><li>作品展示</li></Link>
